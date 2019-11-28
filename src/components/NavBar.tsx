@@ -43,6 +43,11 @@ const ProfilePic = styled.img`
   margin: 0 px;
 `;
 
+const BASE_URL =
+  process.env.NODE_ENV === 'production'
+    ? process.env.REACT_APP_BASE_URL_PROD
+    : process.env.REACT_APP_BASE_URL;
+
 const NavBar: React.FC = () => {
   const {
     isAuthenticated,
@@ -62,7 +67,7 @@ const NavBar: React.FC = () => {
           <>
             <Username>{user && user.name}</Username>
             {user && user.picture ? <ProfilePic src={user.picture} alt="Profile" /> : null}
-            <AuthButton onClick={() => logout()}>Logout</AuthButton>
+            <AuthButton onClick={() => logout({ returnTo: BASE_URL })}>Logout</AuthButton>
           </>
         ) : null}
       </NavBarSection>
