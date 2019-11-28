@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.js": "/giphy-app/static/js/main.0b451251.chunk.js",
-    "main.js.map": "/giphy-app/static/js/main.0b451251.chunk.js.map",
+    "main.js": "/giphy-app/static/js/main.4aa4ff4b.chunk.js",
+    "main.js.map": "/giphy-app/static/js/main.4aa4ff4b.chunk.js.map",
     "runtime-main.js": "/giphy-app/static/js/runtime-main.8e1720a2.js",
     "runtime-main.js.map": "/giphy-app/static/js/runtime-main.8e1720a2.js.map",
     "static/js/2.b3c39e03.chunk.js": "/giphy-app/static/js/2.b3c39e03.chunk.js",
     "static/js/2.b3c39e03.chunk.js.map": "/giphy-app/static/js/2.b3c39e03.chunk.js.map",
     "index.html": "/giphy-app/index.html",
-    "precache-manifest.32c5ef5c316e0e53911bdfc2af089443.js": "/giphy-app/precache-manifest.32c5ef5c316e0e53911bdfc2af089443.js",
+    "precache-manifest.c4dd4df48e2e102d0d7b1a140a8671eb.js": "/giphy-app/precache-manifest.c4dd4df48e2e102d0d7b1a140a8671eb.js",
     "service-worker.js": "/giphy-app/service-worker.js"
   },
   "entrypoints": [
     "static/js/runtime-main.8e1720a2.js",
     "static/js/2.b3c39e03.chunk.js",
-    "static/js/main.0b451251.chunk.js"
+    "static/js/main.4aa4ff4b.chunk.js"
   ]
 }
