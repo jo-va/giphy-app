@@ -1,6 +1,6 @@
-const API_SEARCH = 'http://api.giphy.com/v1/gifs/search';
-const API_TRENDING = 'http://api.giphy.com/v1/gifs/trending';
-const API_GET_BY_ID = 'http://api.giphy.com/v1/gifs';
+const API_SEARCH = 'https://api.giphy.com/v1/gifs/search';
+const API_TRENDING = 'https://api.giphy.com/v1/gifs/trending';
+const API_GET_BY_ID = 'https://api.giphy.com/v1/gifs';
 const API_KEY = process.env.REACT_APP_API_KEY || '';
 const PAGE_SIZE = 50;
 

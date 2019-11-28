@@ -7,7 +7,7 @@ import App from './App';
 import config from './auth-config.json';
 
 ReactDOM.render(
-  <BrowserRouter>
+  <BrowserRouter basename={'giphy-app'}>
     <Auth0Provider domain={config.domain} client_id={config.clientId}>
       <App />
     </Auth0Provider>
